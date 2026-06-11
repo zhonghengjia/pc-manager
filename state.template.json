@@ -1,0 +1,33 @@
+{
+  "_comment": "Copy this to state.json and fill in your system details. state.json is gitignored.",
+  "meta": {
+    "created": "YYYY-MM-DD",
+    "updated": "YYYY-MM-DD",
+    "skill_version": "1.0.0"
+  },
+  "system_profile": {
+    "user": "your-name",
+    "device": "e.g. Lenovo 82RF",
+    "cpu": "e.g. 12th Gen Intel Core i7-12700H",
+    "ram_gb": 0,
+    "os": "Windows 11 Build xxxxx",
+    "environment": "home / office / hospital / etc",
+    "vdi": "if using remote desktop, e.g. Sangfor / Citrix / VMware"
+  },
+  "preserved": [
+    { "name": "app-name", "reason": "why keep it", "usage": "optional notes" }
+  ],
+  "completed_actions": {
+    "file_associations": {},
+    "startup_removed": [],
+    "tasks_removed": [],
+    "services_disabled": [],
+    "settings": {}
+  },
+  "pending": [
+    { "id": "example", "task": "Describe the pending task", "priority": "high|medium|low" }
+  ],
+  "known_issues": [
+    { "device": "device name", "code": 0, "impact": "none|minor|major" }
+  ]
+}

@@ -1,0 +1,16 @@
+# Personal state files (keep local only)
+state.json
+checkpoints/
+
+# OS files
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# PowerShell
+*.ps1xml
+*.psm1
+
+# IDE
+.vscode/
+.idea/
